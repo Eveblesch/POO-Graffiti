@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRAFFITI</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="affichage.css">
+</head>
+<body>
+<h1>Projet POO <br> Graffiti</h1>
+<div id="principal">
+<canvas id="ecriture" width="300" height="300"></canvas>
+	<div id="boutons">
+		<button onClick="choixCanvas(1);">Lettre</button>
+		<button onClick="choixCanvas(2);">Chiffre</button>
+		<button id="valider">Envoyer</button>
+		<button id="effacer">Clear</button>
+
+	</div>
+	<canvas id="lecture" width="300" height="300"></canvas>
+</div>
+
+<div id="secondaire">
+	<canvas id="caracteristiques" width="400" height="100"></canvas>
+</div>
+
+<script type="text/javascript" src="bdd_chiffres.js"></script>
+<script type="text/javascript" src="bdd_lettres.js"></script>
+
+<script type="text/javascript" src="Affichage.js"></script>
+<script type="text/javascript" src="Drawing.js"></script>
+<script type="text/javascript" src="Point.js"></script>
+<script type="text/javascript" src="Dessin.js"></script>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

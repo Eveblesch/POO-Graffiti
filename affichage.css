@@ -1,0 +1,77 @@
+html
+{
+	font-family: 'Arial', Georgia, Times, serif;
+}
+
+body
+{
+	background-color:#deced6;
+}
+
+h1
+{
+
+	width:300px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	margin-top:50px;
+	text-align: center;
+	border-radius: 15px;
+	font-family: "Georgia", Times, serif;
+	font-size:50px;
+}
+
+p
+{
+	text-align: center;
+}
+canvas{
+	background-color: #decece;
+}
+
+#principal
+{
+	display: flex;
+	justify-content: center;
+}
+#ecriture
+{
+	border: 5px solid red;
+}
+
+#lecture
+{
+	border: 5px solid red;
+}
+
+#boutons
+{
+	width:100px;
+	margin-top:100px;
+}
+
+#secondaire
+{
+	display: flex;
+	justify-content: center;
+}
+
+#caracteristiques
+{
+	border: 5px solid blue;
+	background-color: rgba(125, 125, 125, 0.2);
+	margin-top:25px;
+	text-align: center;
+}
+
+button
+{
+	margin-left:10px;
+	width:80px;
+	margin-bottom: 5px;
+	background-color: #991c00;
+	padding:10px;
+	font-family: "Georgia", Times, serif;
+	border-radius:5px;
+
+}
